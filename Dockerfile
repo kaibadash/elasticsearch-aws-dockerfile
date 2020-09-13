@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.4.2
 
 RUN elasticsearch-plugin install analysis-kuromoji
 RUN elasticsearch-plugin install -b ingest-attachment
