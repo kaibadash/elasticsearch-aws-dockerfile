@@ -1,4 +1,4 @@
-FROM amazon/opendistro-for-elasticsearch:1.9.0
+FROM amazon/opendistro-for-elasticsearch:1.1.0
 
 RUN elasticsearch-plugin install analysis-kuromoji
 RUN elasticsearch-plugin install -b ingest-attachment
